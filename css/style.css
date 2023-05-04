@@ -1,0 +1,65 @@
+*{margin: 0px; padding: 0px; box-sizing: border-box;font-family: 'Lato', sans-serif;}
+:root {
+    --blue:#00a3c8;
+    --navTcolor:#fff;
+    --bgWhite: #fff;
+    --navmenu: #666;
+    --drkblue:#004861;
+    --drlightblue:#0e8eab;
+  }
+
+
+html{font-size: 14px;}
+.MedNav{background-color: var(--blue); padding: 10px 0px;}
+.navdetails ul li{display: inline; color: var(--navTcolor);  margin-bottom: 0px; font-size: 0.9rem; }
+.navdetails ul{margin-bottom: 0px; padding-left: 0px;}
+.navdetails ul .numleft{margin-left: 30px;}
+.navsociicon ul a i{color: var(--navTcolor); margin-left: 20px; font-size: 0.9rem;}
+.navsociicon ul{margin-bottom: 0px;}
+.navsociicon{text-align: end; }
+
+/* --------- */
+.MedNav2{background-color: var(--bgWhite); padding: 20px 0px;}
+.navmenu ul a li{display: inline; color: var(--navmenu); margin-left: 60px; font-size: 1.2rem;transition: 0.5s;}
+.navmenu ul a li:hover{color: var(--blue);}
+.navmenu ul a{text-decoration: none;}
+.navmenu{text-align: right; margin-top: 10px;}
+.navmenu ul{margin-bottom: 0px;}
+
+/* ----------- */
+.Medbanner{background-image: url('../images/bg_banner.jpg'); width: 100%; height: 650px; background-position: center center; background-repeat: no-repeat;background-size: cover;}
+.bandetail{margin-top: 17%;}
+.bandetail h2{font-size: 3rem; font-weight: 900;text-transform: uppercase;letter-spacing: 0;margin-bottom: 25px; color: var(--drkblue);}
+.bandetail p{font-size: 1.3rem; color: #333; margin-bottom: 40px;}
+.bandetail a{background: var(--blue);  color: #fff;  font-size: 18px; text-decoration: none; display: block; width: fit-content;
+ padding: 10px 70px; border-radius: 30px; font-weight: 600; margin-top: 30px;text-transform: capitalize;transition: 0.5s;}
+ .bandetail a:hover{background-color: var(--drlightblue);}
+
+ /* ------------- */
+ .bannerCardBg{background-color: var(--bgWhite); border-radius: 10px; padding: 60px 0px;box-shadow: 0 0 10px rgba(0, 0, 0, .1);}
+ .bannerCarddetail{padding: 0px 50px;}
+ .bannerCarddetail h2{font-size: 1.3rem;line-height: 1;font-weight: 900;letter-spacing: 0.25px;text-transform: uppercase;
+  margin-bottom: 15px; color: #222;}
+ .bannerCarddetail p{font-size: 1.2rem;margin-bottom: 0;color: #333;font-weight: 300;}
+ .bannerCarddetail{border-right: 2px dashed #e9e9e9;}
+ .bannerCard{margin-top: -50px; margin-bottom: 50px;}
+
+
+ /* --------------- */
+ .MedicalSpectitle{text-align: center;}
+ .MedicalSpectitle h1{line-height: 1;margin-bottom: 20px;font-size: 2.625rem;color: var(--drkblue); font-weight: 700;letter-spacing: -0.25px;}
+ .MedicalSpectitle p{color: #888; padding: 0 20%; margin-bottom: 0; font-size: 1.3rem;}
+.MedicalSpecialists{margin-bottom: 100px;}
+.MedicalSpecicardDetail{margin-top: 20px;}
+.MedicalSpecicardDetail h2{font-size: 1.4rem;margin-bottom: 5px;font-weight: 700;color: var(--drkblue);}
+.MedicalSpecicardDetail h5{color: var(--blue); font-size: 1rem;}
+.MedicalSpecicardDetail p{margin-top: 10px;margin-bottom: 0;color: #666; font-weight: 300; font-size: 1.1rem;}
+
+.MedicalSpeciBtn a{background: var(--blue);  color: #fff;  font-size: 18px; text-decoration: none; width: fit-content;padding: 14px 20px; border-radius: 10px; font-weight: 600; margin-top: 30px;text-transform: capitalize;transition: 0.5s;}  
+.MedicalSpeciBtn a:hover{background-color: var(--drlightblue);}
+.MedicalSpeciBtn{text-align: center; margin-top: 7%}
+
+
+/* ---------------- */
+.footdiv1 p{margin-top: 20px; font-weight: 300; font-size: 1.1rem; color: #888;}
+.Medfooter{margin-bottom: 100px;}
