@@ -6,6 +6,7 @@
     --navmenu: #666;
     --drkblue:#004861;
     --drlightblue:#0e8eab;
+    --bg-lightgrey:#f8f9fb;
   }
 
 
@@ -20,11 +21,12 @@ html{font-size: 14px;}
 
 /* --------- */
 .MedNav2{background-color: var(--bgWhite); padding: 20px 0px;}
-.navmenu ul a li{display: inline; color: var(--navmenu); margin-left: 60px; font-size: 1.2rem;transition: 0.5s;}
+.navmenu ul a li{display: inline; color: var(--navmenu); margin-left: 40px; font-size: 1.2rem;transition: 0.5s;}
 .navmenu ul a li:hover{color: var(--blue);}
 .navmenu ul a{text-decoration: none;}
 .navmenu{text-align: right; margin-top: 10px;}
 .navmenu ul{margin-bottom: 0px;}
+.userlogin{font-size: 1.5rem!important; font-weight: 900;}
 
 /* ----------- */
 .Medbanner{background-image: url('../images/bg_banner.jpg'); width: 100%; height: 650px; background-position: center center; background-repeat: no-repeat;background-size: cover;}
@@ -62,4 +64,133 @@ html{font-size: 14px;}
 
 /* ---------------- */
 .footdiv1 p{margin-top: 20px; font-weight: 300; font-size: 1.1rem; color: #888;}
-.Medfooter{margin-bottom: 100px;}
+.Medfooter{padding: 100px 0px 30px 0px;}
+.m-20{margin-left: 20px;}
+.footericon ul{padding: 0px; margin-top: 30px;}
+.footericon ul a i{ border: 2px solid #666; border-radius: 50px; padding: 8px; font-size: 1.2rem; color: #666;}
+.footdiv2{margin-top: 5px;}
+.footdiv2 h5{color: #222; font-weight: 600; font-size: 1.4rem; margin-bottom: 20px;}
+.footdiv2 ul a{text-decoration: none;}
+.footdiv2 ul{padding-left: 0px;}
+.footdiv2 ul a li{list-style-type: none;color: #888; margin-top: 12px; font-size: 1.1rem;}
+
+.footdiv3{border-top: 1px solid #ddd;margin-top: 50px;padding-top: 40px;}
+.footdiv3 p{color: #888; font-size: 1.1rem;}
+.footdiv3 p b{color: #222;}
+ .form-control {
+    height: 48px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-right: none;
+    color: #333;
+    font-size: 1rem;
+    padding: 0 15px;
+    -webkit-border-radius: 4px 0 0 4px;
+    -moz-border-radius: 4px 0 0 4px;
+    border-radius: 4px 0 0 4px;
+    -webkit-transition: all 400ms ease-in-out;
+    -moz-transition: all 400ms ease-in-out;
+    -o-transition: all 400ms ease-in-out;
+    -ms-transition: all 400ms ease-in-out;
+    transition: all 400ms ease-in-out;
+}
+
+ .btn {
+    height: 48px;
+    color: #aaa;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-left: none;
+    font-size: 1.45rem;
+    line-height: 1!important;
+    padding: 0 15px;
+    -webkit-border-radius: 0 4px 4px 0;
+    -moz-border-radius: 0 4px 4px 0;
+    border-radius: 0 4px 4px 0;
+}
+
+/* --------------- */
+.Testimonials{background-color: var(--bg-lightgrey); padding: 100px 0px; text-align: center;}
+.TestiTitle h2{line-height: 1;margin-bottom: 20px;line-height: 1;  margin-bottom: 20px;font-size: 2.625rem;color: var(--drkblue);
+ font-weight: 700;letter-spacing: -0.25px;}
+.TestiTitle p{color: #888;padding: 0 20%;margin-bottom: 0;font-size: 1.3rem;}
+.TestiCard{background-color: #fff;border: 1px solid #f5f5f5;box-shadow: 0 0 10px rgba(0, 0, 0, .1); margin: 0 10px 40px;padding: 40px 30px; border-radius: 5px;}
+.TestiCardimg{text-align: center!important;width: 30%;
+ margin: auto;}
+.TestiCardimg img{width: 70px!important; height: 70px!important;
+border-radius: 100%;} 
+.TestiCarddetail p{color: #444;font-size: 1.35rem; line-height: 1.35;font-weight: 400;}
+.review-author h5{font-size: 0.775rem;line-height: 1;font-weight: 900;text-transform: uppercase;letter-spacing: 5px; padding-top: 10px;margin-bottom: 0px;}
+.review-author span{color: #959595;font-size: 0.7rem;line-height: 1;font-weight: 900;text-transform: uppercase;letter-spacing: 4px;}
+
+
+
+/* -------------- */
+.userlogintitle h5{text-align: center!important; font-size: 1rem; font-weight: bold;}
+.userlogintitle{background-color: var(--blue); color: #000;border-top-left-radius: calc(1rem - 1px); border-top-right-radius: calc(1rem - 1px);}
+.userlogin{border-radius: 1rem;}
+.userbody {text-align: center; margin-top: 10px; padding: 40px 30px;}
+.userbody img{width: 168px;}
+.emailOrNo .emailnumber{width: 100%;height: 48px;background-color: #fff;border: 1px solid #ccc;color: #333;font-size: 1rem;padding: 0 15px; border-radius: 4px 0 0 4px; transition: all 400ms ease-in-out; margin-top: 25px;}
+.checkbox .inner-checkbox {display: flex;align-items: center;margin: 20px 0px 0px;justify-content: center;text-align: center; }
+.checkbox input {margin-right: 5px;} 
+.checkbox label { font-size: 13px; color: #000000;font-weight: 500;margin: 0px;}
+.inner-checkbox label a{color:#2d255e; text-decoration: none; font-weight: 700;}
+.loginbtn{margin-top: 35px;}
+.loginbtn .loginbutton{background: var(--blue); color: #fff; font-size: 17px; text-decoration: none; width: fit-content; padding: 12px 25px;  border-radius: 50px; font-weight: 600; margin-top: 30px; text-transform: capitalize; transition: 0.5s;}
+.loginbtn .loginbutton:hover{background-color: var(--drlightblue);}
+.loginbtn p{font-size: .9rem; margin-top: 26px; color: #888;}
+.loginbtn p a{color: var(--drkblue);}
+
+/* otp------------ */
+
+.title {
+    max-width: 400px;
+    margin: auto;
+    text-align: center;font-family: "Poppins", sans-serif;
+  }
+  .title h3 {
+    font-weight: bold;
+  }
+  .title p {
+    font-size: 12px;
+    color: #118a44;
+  }
+  .title p.msg {
+    color: initial;
+    text-align: initial;
+    font-weight: bold;
+  }
+  
+  .otp-input-fields { margin: auto;background-color: white;box-shadow: 0px 0px 8px 0px #02025044;max-width: 400px;width: auto;display: flex;justify-content: center;gap: 10px;padding: 40px; }
+  .otp-input-fields input { height: 40px;width: 40px;background-color: transparent;border-radius: 4px;border: 1px solid #2f8f1f;text-align: center;outline: none;font-size: 16px;/* Firefox */}
+  .otp-input-fields input::-webkit-outer-spin-button, .otp-input-fields input::-webkit-inner-spin-button {-webkit-appearance: none;margin: 0;}
+  .otp-input-fields input[type=number] {-moz-appearance: textfield;}
+  .otp-input-fields input:focus {border-width: 2px;border-color: #287a1a;font-size: 20px;}
+  .result {max-width: 400px; margin: auto;padding: 24px;text-align: center;}
+  .result p {font-size: 24px;font-family: "Antonio", sans-serif;opacity: 1;transition: color 0.5s ease;}
+  .result p._ok {color: green;}
+  .result p._notok {color: red;border-radius: 3px;}
+
+
+  /* ------contact-----page--------- */
+  .contactBanner{background-image: url('../images/breadcrumb.jpg'); width: 100%; height: 160px; background-position: center center; background-repeat: no-repeat;background-size: cover;}
+  .contbantitle p{color: #666;font-size: 1.2rem;font-weight: 400;margin-top: 2px;}
+  .contbantitle h2{color: var(--drkblue); font-size: 2rem; font-weight: 900;}
+
+  /* ---------------------- */
+  .contactform{padding: 70px 0px; background-color: var(--bg-lightgrey);}
+  .conformtitle{text-align: center;margin-bottom: 60px;}
+  .conformtitle h2{line-height: 1;
+   margin-bottom: 20px;font-weight: 700;color: var(--drkblue); font-size: 2.8rem;}
+  .conformtitle p{color: #888; padding: 0 20%;margin-bottom: 0;font-size: 1.3rem;}
+  .contantdetail h5{line-height: 1; font-weight: 700;margin-bottom: 15px; color: var(--drkblue); font-size: 1.5rem;}
+  .contantdetail p{font-size: 1.1rem;margin-bottom: 2px; color: #888;}
+  .contantdetail p a{text-decoration: none; color: var(--blue)}
+  .contantdetail{margin-bottom: 40px;}
+  .workhour{margin-bottom: 0px;}
+  .inpform input ,.custom-select {background-color: #fff;border: 1px solid #bbb;color: #333;height: 52px;font-size: 15px;line-height: 1;font-weight: 300;padding: 4px 15px;margin-bottom: 18px;border-radius: 4px;box-shadow: none;transition: all 400ms ease-in-out; width: 100%;}
+  textarea.form-control {padding: 20px 15px; border: 1px solid #ccc;}
+.inpform textarea {min-height: 200px;}
+.medFormbtn a{text-align: unset;}
+   

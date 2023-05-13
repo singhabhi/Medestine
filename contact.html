@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+<body>
+    
+    <section class="MedNav">
+        <nav>
+            <div class="container-fluid">
+                <div class="row">
+                  <div class="col-9 m-auto">
+                    <div class="">
+                      <div class="row">
+                           <div class="col-6">
+                            <div class="navdetails">
+                              <ul class="">
+                                  <li><i class="bi bi-geo-alt-fill"></i> 121 King St, Melbourne, VIC 3000</li>
+                                  <li class="numleft"><i class="bi bi-telephone-fill"></i> (800)-569-7890</li>
+                              </ul>
+                            </div>
+                          </div>
+                            <div class="col-6">
+                                <div class="navsociicon">
+                                    <ul>
+                                    <a href="javascript:void(0)"><i class="bi bi-facebook"></i></a>
+                                    <a href="javascript:void(0)"><i class="bi bi-twitter"></i></a>
+                                    <a href="javascript:void(0)"><i class="bi bi-linkedin"></i></a>
+                                    <a href="javascript:void(0)"><i class="bi bi-google"></i></a>
+                                    
+                                    </ul>
+                                </div>
+                            </div>
+                      </div>
+                    </div>   
+                  </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <section class="MedNav2">
+        <nav class="">
+            <div class="container-fluid">
+             <div class="row">
+              <div class="col-9 m-auto">
+                <div class="">
+                 <div class="row">
+                   <div class="col-2">
+                    <div class="navlogo">
+                     <img src="images/logo.png" alt="" class="img-fluid">
+                    </div>
+                   </div>
+                   <div class="col">
+                    <div class="navmenu">
+                     <ul>
+                        <a href="javascript:void(0)"><li>Product</li></a>
+                        <a href="javascript:void(0)"><li>Medical Experts</li></a>
+                        <a href="javascript:void(0)"><li>Company</li></a>
+                        <a href="javascript:void(0)"><li>Contact</li></a>
+                        <a href="javascript:void(0)"><li class="userlogin"><i class="bi bi-person-fill" data-bs-toggle="modal" data-bs-target="#exampleModal"></i></li></a>
+                     </ul>
+                    </div>
+                   </div>
+                 </div>
+                </div>
+              </div>
+             </div>
+            </div>
+           </nav>
+    </section>
+
+<section>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content userlogin">
+        <div class="modal-header userlogintitle">
+          <h5 class="" >Log in or Sign up</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body userbody">
+          <img src="images/logo.png" alt="" class="img-fluid">
+          <form action="">
+            <div class="emailOrNo">
+                <input type="email" class="emailnumber" placeholder="Mobile Number Or Email Id" required="" id="s-email" name="EMAIL">	
+                <div class="checkbox">
+                    <div class="inner-checkbox">
+                        <input id="termsOfUseCheckbox" type="checkbox" name="termsOfUse" value="1">
+                        <label for="termsOfUse">
+                            I agree to CancerMitr's <a href="javascript:void(0)" >Terms and Conditions</a>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="loginbtn">
+              <a href="javascript:void(0)" class="loginbutton" data-bs-dismiss="modal" aria-label="Close" data-bs-toggle="modal" data-bs-target="#exampleModal2" >Continue to Login Or Signup</a>
+              <p>If you are a partner <a href="javascript:void(0)" >Login Here</a></p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <!-- Modal 2 -->
+   <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+    <div class="modal-dialog">
+      <div class="modal-content userlogin">
+        <div class="modal-header ">
+          <h5 class="" >Confirm your number</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onClick="refreshPage()" ></button>
+        </div>
+        <div class="modal-body ">
+            <form action="javascript: void(0)" class="otp-form" name="otp-form">
+  
+                <div class="title">
+                  <p class="info">Enter the code we've sent via SMS to +91 8937936879</p>
+                  <p class="msg">Please enter OTP to verify</p>
+                </div>
+                <div class="otp-input-fields">
+                  <input type="number" class="otp__digit otp__field__1">
+                  <input type="number" class="otp__digit otp__field__2">
+                  <input type="number" class="otp__digit otp__field__3">
+                  <input type="number" class="otp__digit otp__field__4">
+                  <input type="number" class="otp__digit otp__field__5">
+                  <input type="number" class="otp__digit otp__field__6">
+                </div>
+                
+                <div class="result"><p id="_otp" class="_notok">Haven't received a code? Resend OTP</p></div>
+                <div class="loginbtn">
+                    <a href="javascript:void(0)" class="loginbutton">SUBMIT</a>
+                  </div>
+            </form>
+        </div>
+      </div>
+    </div>
+  </div>
+ </section>
+
+ <section class="contactBanner">
+   <div class="container-fluid">
+    <div class="row">
+      <div class="col-9 m-auto">
+        <div class="mt-5">
+            <div class="row">
+              <div class="col">
+                <div class="contbantitle">
+                    <p><a href="index.html">Home</a> >> Contact Us</p>
+                    <h2>Contact Us</h2>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+   </div>
+ </section>
+
+ <section class="contactform">
+    <div class="container-fluid">
+     <div class="row">
+       <div class="col-9 m-auto">
+         <div class="">
+             <div class="row">
+               <div class="col">
+                <div class="conformtitle">
+                  <h2>Have a Question? Get In Touch</h2>
+                  <p>Have a question? Want to book an appointment for yourself or your children? Give us a call or send an email to contact the MedService.</p>
+                </div>
+                
+               </div>
+             </div>
+             <div class="row mt-4">
+               <div class="col-5">
+                <div class="contantdetail">
+                  <h5>General Information</h5>
+                  <p>121 King Street, Melbourne,<br>Victoria 3000 Australia</p>
+                  <p>Phone: +12 9 8765 4321</p>
+                  <p>Email: <a href="">hello@yourdomain.com</a></p>
+                </div>
+                <div class="contantdetail">
+                    <h5>Patient Experience</h5>
+                    <p>Hannah Harper - Patient Experience Coordinator</p>
+                    <p>Phone: +12 9 8765 4321</p>
+                    <p>Email: <a href="">hello@yourdomain.com</a></p>
+                </div>
+                <div class="contantdetail workhour">
+                    <h5>Working Hours</h5>
+                    <p>Monday – Friday : 8:00 AM - 8:00 PM</p>
+                    <p>Saturday : 10:00 AM - 6:00 PM</p>
+                    <p>Sunday : 10:00 AM - 4:00 PM</p>
+                  </div>
+               </div>
+               <div class="col-7">
+                <div class="">
+                  <div class="row">
+                    <div class="col-6">
+                        <div class="inpform">
+                            <input type="text" name="name" class="form-control name" placeholder="Enter Your Name*" required="">
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="inpform">
+                            <input type="text" name="name" class="form-control name" placeholder="Enter Your Name*" required="">
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="inpform">
+                            <input type="text" name="name" class="form-control name" placeholder="Enter Your Name*" required="">
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="inpform">
+                            <select id="inlineFormCustomSelect3" name="patient" class="custom-select patient" required="">
+                                <option value="">Have You Visited Us Before?*</option>
+                                <option>New Patient</option>
+                                <option>Returning Patient</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="inpform">
+                            <input type="text" name="name" class="form-control name" placeholder="Enter Your Name*" required="">
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="inpform">
+                            <textarea class="form-control message" name="message" rows="6" placeholder="Your Message ..." required=""></textarea>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="MedicalSpeciBtn medFormbtn">
+                          <a href="javascript:void(0)" class="btncommn">Send Your Message</a>
+                      </div>
+                  </div>
+                  </div>
+                </div>
+               </div>
+             </div>
+         </div>
+       </div>
+     </div>
+    </div>
+  </section>
+
+ <section class="Medfooter">
+    <footer>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-9 m-auto">
+                <div class="">
+                  <div class="row">
+                    <div class="col-4">
+                      <div class="footdiv1">
+                        <img src="images/logo.png" alt="" class="img-fluid" width="180" height="40">
+                        <p>Aliquam orci nullam tempor sapien gravida donec an enim ipsum porta justo velna auctor congue magna laoreet augue sapien gravida at purus euismod</p>
+                        <div class="footericon">
+                            <ul>
+                                <a href="javascript:void(0)"><i class="bi bi-facebook "></i></a>
+                                <a href="javascript:void(0)"><i class="bi bi-twitter m-20"></i></a>
+                                <a href="javascript:void(0)"><i class="bi bi-linkedin m-20"></i></a>
+                                <a href="javascript:void(0)"><i class="bi bi-google m-20"></i></a>
+                            </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-8 ">
+                        <div class="">
+                            <div class="row offset-1">
+                                <div class="col-4">
+                                    <div class="footdiv2">
+                                        <h5>Our Location</h5>
+                                        <ul>
+                                            <a href="javascript:void(0)"><li>121 King Street, Melbourne, Victoria 3000 Australia</li></a>
+                                            <a href="javascript:void(0)"><li>E:<b>hello@yourdomain.com</b></li></a>
+                                            <a href="javascript:void(0)"><li>P: +12 9 8765 4321</li></a> 
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="footdiv2 m-20">
+                                        <h5>Company</h5>
+                                        <ul>
+                                            <a href="javascript:void(0)"><li>Product</li></a>
+                                            <a href="javascript:void(0)"><li> Medical Experts</li></a>
+                                            <a href="javascript:void(0)"><li>About us</li></a>
+                                            <a href="javascript:void(0)"><li>Contact</li></a>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="footdiv2">
+                                        <h5>Subscribe Us:</h5>
+                                        <ul>                                               
+                                            <a href="javascript:void(0)"><li>Stay up to date with our latest news, updates and our new products</li></a>
+                                        </ul>
+                                        <form class="newsletter-form" novalidate="true">
+                                            <div class="input-group">
+                                                <input type="email" class="form-control" placeholder="Email Address" required="" id="s-email" name="EMAIL">								
+                                                <span class="input-group-btn">
+                                                    <button type="submit" class="btn">
+                                                        <i class="bi bi-envelope"></i>
+                                                    </button>
+                                                </span>
+                                            </div>
+                                            <!-- Newsletter Form Notification -->		
+                                            <label for="s-email" class="form-notification"></label>                  
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="footdiv3">
+                        <p>© 2019 <b>MedService.</b> All Rights Reserved</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+    </footer>
+</section>
+
+
+
+
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
