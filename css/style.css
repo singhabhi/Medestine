@@ -193,4 +193,32 @@ border-radius: 100%;}
   textarea.form-control {padding: 20px 15px; border: 1px solid #ccc;}
 .inpform textarea {min-height: 200px;}
 .medFormbtn a{text-align: unset;}
-   
+.medFormbtn{text-align: unset;} 
+.medFormbtn a{font-size: 1rem;}
+.appoForm{text-align: unset; margin: 0px;}
+.appoForm p{text-align: unset; padding: 0px; margin: 30px 0px; font-size: 1.2rem; font-weight: unset;}
+.appoForm textarea{min-height: 160px;}
+.custom-select{background: url('../images/download.svg') no-repeat right 0.75rem center/8px 10px; background-color: #fff;}
+select{appearance: none}
+.appdetail{margin-bottom: 25px; border-bottom: 1px solid #ddd;}
+.appdetail p{padding-bottom: 5px; color: var(--drkblue); font-size: 1.4rem; font-weight: 600;}
+.AppdocDetail h4{color: var(--drkblue); font-size: 1.5rem;font-weight: 600; margin-bottom: 0px;}
+.AppdocDetail p{color: #666;font-size: 1.1rem; font-weight: 300; margin-bottom: 0px;}
+.AppdocDetail h5{color: var(--blue); font-size: 1.4rem; font-weight: 700; margin-bottom: 0px;}
+.AppdocDetail{margin-top: 15px; line-height: 30px;}
+.appoSideDetail{margin-left: 15px;}
+.appsidecontent{margin: 20px 0px;}
+.appsidecontent p{color: #666;font-size: 1.1rem; font-weight: 300; margin-bottom: 0px;}
+.appobtn2{margin-top: 0%;}
+.appobtn2 a{display: block; margin-top: 0px;}
+.appobtn{margin-top: 0%;}
+.appobtn a{display: block; }
+.timetable{background-color: #00a3c8; border: 1px solid #00a3c8; color: #fff;box-shadow: none;padding: 30px 30px; border-radius: 6px;}
+.mb-50{margin-bottom: 50px;}
+.timetable .timetabledetail h2{font-weight: 600; font-size: 1.6rem; margin-bottom: 15px;}
+.timetable .timetabledetail p{font-weight: 100; line-height: 23px;}
+.timetable table{color: #fff;}
+.text-right{text-align: right;}
+.timetable .table td{border-bottom: 1px dashed rgba(255, 255, 255, .6);font-size: 1.1rem; padding: 14px 0;
+border-top: none;vertical-align: top;}
+.detaibott h2{font-size: 1.3rem!important;}

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contact</title>
+    <title>Appointment</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
@@ -65,7 +65,7 @@
                         <a href="javascript:void(0)"><li>Product</li></a>
                         <a href="javascript:void(0)"><li>Medical Experts</li></a>
                         <a href="javascript:void(0)"><li>Company</li></a>
-                        <a href="javascript:void(0)"><li>Contact</li></a>
+                        <a href="contact.html"><li>Contact</li></a>
                         <a href="javascript:void(0)"><li class="userlogin"><i class="bi bi-person-fill" data-bs-toggle="modal" data-bs-target="#exampleModal"></i></li></a>
                      </ul>
                     </div>
@@ -154,8 +154,8 @@
             <div class="row">
               <div class="col">
                 <div class="contbantitle">
-                    <p><a href="index.html">Home</a> >> Contact Us</p>
-                    <h2>Contact Us</h2>
+                    <p><a href="index.html">Home</a> >> Appointment</p>
+                    <h2>Appointment</h2>
                 </div>
               </div>
             </div>
@@ -170,7 +170,7 @@
      <div class="row">
        <div class="col-9 m-auto">
          <div class="">
-             <div class="row">
+             <!-- <div class="row">
                <div class="col">
                 <div class="conformtitle">
                   <h2>Have a Question? Get In Touch</h2>
@@ -178,47 +178,38 @@
                 </div>
                 
                </div>
-             </div>
+             </div> -->
              <div class="row mt-4">
-               <div class="col-5">
-                <div class="contantdetail">
-                  <h5>General Information</h5>
-                  <p>121 King Street, Melbourne,<br>Victoria 3000 Australia</p>
-                  <p>Phone: +12 9 8765 4321</p>
-                  <p>Email: <a href="">hello@yourdomain.com</a></p>
-                </div>
-                <div class="contantdetail">
-                    <h5>Patient Experience</h5>
-                    <p>Hannah Harper - Patient Experience Coordinator</p>
-                    <p>Phone: +12 9 8765 4321</p>
-                    <p>Email: <a href="">hello@yourdomain.com</a></p>
-                </div>
-                <div class="contantdetail workhour">
-                    <h5>Working Hours</h5>
-                    <p>Monday – Friday : 8:00 AM - 8:00 PM</p>
-                    <p>Saturday : 10:00 AM - 6:00 PM</p>
-                    <p>Sunday : 10:00 AM - 4:00 PM</p>
-                  </div>
-               </div>
-               <div class="col-7">
+               <div class="col-8">
                 <div class="">
                   <div class="row">
-                    <div class="col-6">
+                    <div class="col-12">
+                        <div class="conformtitle appoForm">
+                          <h2>Book an Appointment</h2>
+                          <p>Porta semper lacus cursus, feugiat primis ultrice in ligula risus auctor tempus feugiat dolor lacinia cubilia curae integer congue leo metus, primis in orci integer metus mollis faucibus enim. Nemo ipsam egestas volute turpis dolores ut aliquam quaerat sodales sapien undo pretium purus feugiat dolor impedit magna purus pretium gravida donec ligula massa gravida donec pretium</p>
+                        </div>
+                     </div>
+                     <div class="col-12">
                         <div class="inpform">
-                            <input type="text" name="name" class="form-control name" placeholder="Enter Your Name*" required="">
+                            <select id="inlineFormCustomSelect3" name="patient" class="custom-select patient" required="">
+                                <option value="">Select Department</option>
+                                <option>New Patient</option>
+                                <option>Returning Patient</option>
+                                <option>Other</option>
+                            </select>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-12">
                         <div class="inpform">
-                            <input type="text" name="name" class="form-control name" placeholder="Enter Your Name*" required="">
+                            <select id="inlineFormCustomSelect3" name="patient" class="custom-select patient" required="">
+                                <option value="">Select Doctor</option>
+                                <option>New Patient</option>
+                                <option>Returning Patient</option>
+                                <option>Other</option>
+                            </select>
                         </div>
                     </div>
-                    <div class="col-6">
-                        <div class="inpform">
-                            <input type="text" name="name" class="form-control name" placeholder="Enter Your Name*" required="">
-                        </div>
-                    </div>
-                    <div class="col-6">
+                    <div class="col-12">
                         <div class="inpform">
                             <select id="inlineFormCustomSelect3" name="patient" class="custom-select patient" required="">
                                 <option value="">Have You Visited Us Before?*</option>
@@ -228,6 +219,12 @@
                             </select>
                         </div>
                     </div>
+                    
+                    <div class="col-12">
+                        <div id="input-date" class="inpform">
+                            <input id="datetimepicker" type="text" name="date" class="form-control date" placeholder="Appointment Date" required=""> 
+                        </div>
+                    </div>
                     <div class="col-12">
                         <div class="inpform">
                             <input type="text" name="name" class="form-control name" placeholder="Enter Your Name*" required="">
@@ -235,15 +232,103 @@
                     </div>
                     <div class="col-12">
                         <div class="inpform">
+                            <input type="text" name="name" class="form-control name" placeholder="Enter Your Email*" required="">
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="inpform">
+                            <input type="text" name="name" class="form-control name" placeholder="Enter Your Phone Number*" required="">
+                        </div>
+                    </div> 
+                    <div class="col-12">
+                        <div class="inpform appoForm">
                             <textarea class="form-control message" name="message" rows="6" placeholder="Your Message ..." required=""></textarea>
                         </div>
                     </div>
                     <div class="col-12">
-                      <div class="MedicalSpeciBtn medFormbtn">
-                          <a href="javascript:void(0)" class="btncommn">Send Your Message</a>
+                      <div class="MedicalSpeciBtn medFormbtn  appobtn">
+                          <a href="javascript:void(0)" class="btncommn">Request an Appointment</a>
                       </div>
+                    </div>
+                     <div class="col-12">
+                        <div class="appsidecontent mt-5">
+                            <p>* Porta semper lacus cursus, feugiat primis ultrice in ligula risus auctor tempus feugiat dolor lacinia cubilia curae integer congue leo metus, primis in orci integer metus mollis faucibus enim. Nemo ipsam egestas volute turpis dolores ut aliquam quaerat sodales sapien undo pretium purus</p>
+                        </div>
+                    </div>  
                   </div>
-                  </div>
+                </div>
+               </div>
+               <div class="col-4">
+                <div class="appoSideDetail">
+                    <div class="row mb-50">
+                      <div class="col-12">
+                       <div class="appdetail">
+                         <p>The Health Of The Patient</p>
+                       </div>
+                      </div>
+                      <div class="col-4">
+                        <div class="">
+                            <img src="images/head-of-clinic.jpg" alt="" class="img-fluid">
+                        </div>
+                      </div>
+                      <div class="col-8">
+                        <div class="AppdocDetail">
+                           <h4>Dr. Jonathan Barnes</h4>
+                           <p>Chief Medical Officer, Founder</p>
+                           <h5>1-800-1234-567</h5> 
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <div class="appsidecontent">
+                            <p>An enim nullam tempor sapien at gravida donec pretium ipsum porta justo integer at odiovelna vitae auctor integer congue magna purus</p>
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <div class="MedicalSpeciBtn medFormbtn appobtn2 ">
+                            <a href="javascript:void(0)" class="btncommn">Learn More</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                        <div class="timetable">
+                          <div class="col-12">
+                            <div class="timetabledetail">
+                                <h2>working Time</h2>
+                                <p>Porta semper lacus cursus, feugiat primis ultrice ligula risus auctor at tempus feugiat dolor lacinia cursus nulla vitae massa</p>
+                            </div>
+                            <div class="mb-5">
+                                <table class="table">
+									<tbody>
+									    <tr>
+									      	<td>Mon – Wed</td>
+									      	<td> - </td>
+									      	<td class="text-right">9:00 AM - 7:00 PM</td>
+									    </tr>
+									    <tr>
+									      	<td>Thursday</td>
+									      	<td> - </td>
+									      	<td class="text-right">9:00 AM - 6:30 PM</td>
+									    </tr>
+									     <tr>
+									      	<td>Friday</td>
+									      	<td> - </td>
+									      	<td class="text-right">9:00 AM - 6:00 PM</td>
+									    </tr>
+									    <tr class="last-tr">
+									      	<td>Sun - Sun</td>
+									      	<td>-</td>
+									      	<td class="text-right">CLOSED</td>
+									   	 </tr>
+									  </tbody>
+								</table>
+                            </div>
+                            <div class="timetabledetail detaibott">
+                                <h2>Need a personal health plan?</h2>
+                                <p>Porta semper lacus cursus, and feugiat primis ultrice ligula at risus auctor</p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
                 </div>
                </div>
              </div>
