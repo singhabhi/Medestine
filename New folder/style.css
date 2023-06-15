@@ -326,28 +326,3 @@ border-top: none;vertical-align: top;}
 .blog-details-sub-content p{font-size: 18px; line-height: 30px;}
 .blog-details-sub-content{margin-top: 70px;}
 .blog-bold-title{font-size: 25px!important; color: #004861!important; font-weight: 600;}
-
-.doc-profile-card{background: rgb(255, 255, 255);border: 1px solid rgba(39, 42, 61, 0.1);border-radius: 20px;padding: 40px; margin-bottom: 40px;}
-.doc-profile-name{margin-left: 100px; margin-top: 60px;}
-.doc-profile-name h1{font-size: 45px; font-weight: bold;}
-.doc-profile-name p{font-size: 18px;}
-.doc-profile-name .MedicalSpeciBtn a{margin-top: 0px!important;padding: 14px 50px;font-size: 1.2rem;}
-
-
-
-.cmDiWP.cmDiWP.cmDiWP {
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 46px;
-  margin: 0px;
-  color: rgb(39, 42, 61) !important;
-}
-.svg-inline--fa {
-  display: var(--fa-display, inline-block);
-  height: 1em;
-  /* overflow: visible; */
-  vertical-align: -0.125em;
-}
-.doctor-pro-content{margin-top: 30px;}
-.doctor-pro-content h3{font-size: 25px; font-weight: bold;}
-.doctor-pro-content p{font-size: 17px;}
